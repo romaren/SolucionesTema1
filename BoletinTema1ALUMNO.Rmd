@@ -154,18 +154,13 @@ qqPlot(log(Animals2$brain))
     b.  Uno de los elementos de la lista es un matriz de caracteres. Muestra por pantalla los 5 primeros elementos de esta matriz usando la función **head**.
     c.  Determina el número de librerías que tienes instaladas.
 
-    ```{r}
+```{r}
+# a
+libReturn<-library()
+libReturn
+#es una lista de 3 
 
-
-
-
-
-
-
-
-
-
-    ```
+```
 
 4.  En las transparencias del tema 1 se citan los primeros pasos a seguir cuando se analiza un nuevo conjunto de datos.
 
