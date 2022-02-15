@@ -199,6 +199,11 @@ nrow(Chile)
 ncol(Chile)
 #8 columnas
 is.na(Chile)
+
+#d
+summary(cabbages)
+summary(Chile)
+#Vemos que cabbages no tiene ningún valor perdido, pero Chile sí
 ```
 
 5.  Muchas pruebas estadísticas suponen que los datos siguen una distribución Gaussiana. Utiliza la aproximación visual proporcionada por **qqPlot** para determinar si podemos asumir que las variables **HeadWt** y **VitC** del conjunto **cabbages** verifican esta condición.
