@@ -188,6 +188,9 @@ nrow(cabbages)
 ncol(cabbages)
 #4 columnas
 
+#b
+is.na(cabbages)
+
 ```
 
 5.  Muchas pruebas estadísticas suponen que los datos siguen una distribución Gaussiana. Utiliza la aproximación visual proporcionada por **qqPlot** para determinar si podemos asumir que las variables **HeadWt** y **VitC** del conjunto **cabbages** verifican esta condición.
