@@ -235,31 +235,19 @@ Model2 <- lm(Gas ~ Temp, data = whiteside, subset = which(Insul == "After"))
 abline(Model1, lty=2)
 abline(Model2)
 ```
-
-```{r,echo=T,include=T,eval=F}
-
-
-
-
-
-
-
-
-
-
-
-
-```
-
 a.  Utiliza un procedimiento análogo para determinar si se aprecia una relación lineal entre los niveles de vitamina C, **VitC** en función del peso de la calabaza, **HeadWt**, en el conjunto de datos **cabbages**.
-b.  Repite el apartado anterior, pero obteniendo un modelo para cada una de las dos variedades de calabaza, **Cult**. Ver[Parámetros básicos plot](https://www.statmethods.net/advgraphs/parameters.html).
 
 ```{r}
 #Representación de vitamina C en función del peso de la calabaza
 plot(cabbages$VitC ~ cabbages$HeadWt, xlab='Peso Calabaza', ylab='Vitamina C')
 #No existe una relación lineal entre ellas
 ```
+b.  Repite el apartado anterior, pero obteniendo un modelo para cada una de las dos variedades de calabaza, **Cult**. Ver[Parámetros básicos plot](https://www.statmethods.net/advgraphs/parameters.html).
 
+```{r}
+
+
+```
 c.  Usa **summary** con cada uno de los modelos obtenidos y observa **Coefficients**. Dado que hemos planteado un modelo $y=mx+n$, donde $y=VitC$ y $x=HeadWt$. La función **lm** nos permite obtener **(Intercept)**; **n** y la pendiente **HeadWt**; **m** (además de otros parámetros adicionales que evalúan la caracterísiticas del modelo). Observa que en todos los casos, la pendiene es negativa indicando que las calabazas de más peso contienen menos vitamina C. No te preocupes por el resto de parámetros del modelo, por el momento.
 
 ```{r}
