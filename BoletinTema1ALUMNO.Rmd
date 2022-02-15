@@ -191,6 +191,14 @@ ncol(cabbages)
 #b
 is.na(cabbages)
 
+#c
+str(Chile)
+#2700 observaciones de 8 variables
+nrow(Chile)
+#2700 filas
+ncol(Chile)
+#8 columnas
+is.na(Chile)
 ```
 
 5.  Muchas pruebas estadísticas suponen que los datos siguen una distribución Gaussiana. Utiliza la aproximación visual proporcionada por **qqPlot** para determinar si podemos asumir que las variables **HeadWt** y **VitC** del conjunto **cabbages** verifican esta condición.
