@@ -102,6 +102,15 @@ dim(Animals2)
 head(Animals2)
 tail(Animals2)
 str(Animals2)
+
+# c)
+r_m<- rownames(mammals)
+r_m
+colnames(mammals)
+
+r_a<- rownames(Animals2)
+r_a
+colnames(Animals2)
 ```
 
 d.  Usa la función **intersect** y almacena en la variable *commonAnimals* los aminales que aparezcan en ambos conjuntos
