@@ -160,6 +160,12 @@ libReturn<-library()
 libReturn
 #es una lista de 3 
 
+#b
+#Muestro el nombre de las librerías 
+libReturn[[2]][1:5]
+#Muestro los primeros 5 elementos 
+head(libReturn$results,n=5)
+
 ```
 
 4.  En las transparencias del tema 1 se citan los primeros pasos a seguir cuando se analiza un nuevo conjunto de datos.
